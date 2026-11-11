@@ -29,3 +29,6 @@ Primary deliverable: [`src/main/java/com/oasis/guess/NumberGuessingGame.java`](.
 ## Generated outputs
 
 - [outputs/number-guessing-game-1.0.0.jar](./outputs/number-guessing-game-1.0.0.jar)
+- [outputs/Prathamesh_Task2.jar](./outputs/Prathamesh_Task2.jar)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

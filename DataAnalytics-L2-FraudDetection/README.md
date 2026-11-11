@@ -32,3 +32,6 @@ Primary deliverable: [`03_fraud_detection.ipynb`](./03_fraud_detection.ipynb).
 - [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
 - [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
 - [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)
+- [outputs/Prathamesh_Task7.ipynb](./outputs/Prathamesh_Task7.ipynb)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

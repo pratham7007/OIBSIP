@@ -29,3 +29,6 @@ Primary deliverable: [`app/src/main/java/com/oasis/internship/QuizActivity.java`
 ## Generated outputs
 
 - [outputs/app-debug.apk](./outputs/app-debug.apk)
+- [outputs/Prathamesh_Task4.apk](./outputs/Prathamesh_Task4.apk)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

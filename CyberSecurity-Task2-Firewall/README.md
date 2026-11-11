@@ -29,3 +29,6 @@ Primary deliverable: [`ufw_configuration.sh`](./ufw_configuration.sh).
 ## Generated outputs
 
 - [outputs/ufw_configuration.sh](./outputs/ufw_configuration.sh)
+- [outputs/Prathamesh_Task2.sh](./outputs/Prathamesh_Task2.sh)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

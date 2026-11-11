@@ -29,3 +29,6 @@ Primary deliverable: [`weather_app.py`](./weather_app.py).
 ## Generated outputs
 
 - [outputs/smoke_test_results.txt](./outputs/smoke_test_results.txt)
+- [outputs/Prathamesh_Task4.py](./outputs/Prathamesh_Task4.py)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

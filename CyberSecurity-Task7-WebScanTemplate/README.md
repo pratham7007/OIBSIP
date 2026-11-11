@@ -29,3 +29,6 @@ Primary deliverable: [`nikto_scan_results.txt`](./nikto_scan_results.txt).
 ## Generated outputs
 
 - [outputs/nikto_scan_results.txt](./outputs/nikto_scan_results.txt)
+- [outputs/Prathamesh_Task7.txt](./outputs/Prathamesh_Task7.txt)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

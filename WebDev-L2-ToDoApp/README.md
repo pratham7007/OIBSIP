@@ -27,3 +27,6 @@ Primary deliverable: [`public/index.html`](./public/index.html).
 ## Generated outputs
 
 - [outputs/todo-app.png](./outputs/todo-app.png)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/Prathamesh_Task5.md](./outputs/Prathamesh_Task5.md)

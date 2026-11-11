@@ -29,3 +29,6 @@ Primary deliverable: [`small_habits_wellbeing_infographic.png`](./outputs/infogr
 ## Generated outputs
 
 - [outputs/infographic/small_habits_wellbeing_infographic.png](./outputs/infographic/small_habits_wellbeing_infographic.png)
+- [outputs/Prathamesh_Task4.png](./outputs/Prathamesh_Task4.png)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

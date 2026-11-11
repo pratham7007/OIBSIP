@@ -36,3 +36,6 @@ Primary deliverable: [`lumen_logo_full_color.png`](./outputs/logo/lumen_logo_ful
 - [outputs/logo/lumen_logo_monochrome.svg](./outputs/logo/lumen_logo_monochrome.svg)
 - [outputs/logo/lumen_logo_reversed.png](./outputs/logo/lumen_logo_reversed.png)
 - [outputs/logo/lumen_logo_reversed.svg](./outputs/logo/lumen_logo_reversed.svg)
+- [outputs/Prathamesh_Task2.png](./outputs/Prathamesh_Task2.png)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

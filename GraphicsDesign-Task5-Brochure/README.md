@@ -35,3 +35,6 @@ Primary deliverable: [`lumen_field_notes_brochure.pdf`](./outputs/brochure/lumen
 - [outputs/brochure/page_04.png](./outputs/brochure/page_04.png)
 - [outputs/brochure/page_05.png](./outputs/brochure/page_05.png)
 - [outputs/brochure/page_06.png](./outputs/brochure/page_06.png)
+- [outputs/Prathamesh_Task5.pdf](./outputs/Prathamesh_Task5.pdf)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

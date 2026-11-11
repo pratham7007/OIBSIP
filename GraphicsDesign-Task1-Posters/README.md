@@ -30,3 +30,6 @@ Primary deliverable: [`01_slow_mornings.png`](./outputs/posters/01_slow_mornings
 
 - [outputs/posters/01_slow_mornings.png](./outputs/posters/01_slow_mornings.png)
 - [outputs/posters/02_repair_together.png](./outputs/posters/02_repair_together.png)
+- [outputs/Prathamesh_Task1.png](./outputs/Prathamesh_Task1.png)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

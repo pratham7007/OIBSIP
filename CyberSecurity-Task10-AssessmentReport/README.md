@@ -29,3 +29,6 @@ Primary deliverable: [`network_security_assessment.md`](./network_security_asses
 ## Generated outputs
 
 - [outputs/network_security_assessment.md](./outputs/network_security_assessment.md)
+- [outputs/Prathamesh_Task10.md](./outputs/Prathamesh_Task10.md)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

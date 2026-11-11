@@ -29,3 +29,6 @@ Primary deliverable: [`src/main/java/com/oasis/exam/OnlineExamApp.java`](./src/m
 ## Generated outputs
 
 - [outputs/online-examination-1.0.0.jar](./outputs/online-examination-1.0.0.jar)
+- [outputs/Prathamesh_Task4.jar](./outputs/Prathamesh_Task4.jar)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

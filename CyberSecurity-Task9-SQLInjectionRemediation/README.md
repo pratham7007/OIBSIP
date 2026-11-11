@@ -29,3 +29,6 @@ Primary deliverable: [`sql_injection_remediation.md`](./sql_injection_remediatio
 ## Generated outputs
 
 - [outputs/sql_injection_remediation.md](./outputs/sql_injection_remediation.md)
+- [outputs/Prathamesh_Task9.md](./outputs/Prathamesh_Task9.md)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

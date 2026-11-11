@@ -36,3 +36,6 @@ Primary deliverable: [`04_play_store_analysis.ipynb`](./04_play_store_analysis.i
 - [outputs/notebook_chart_07.png](./outputs/notebook_chart_07.png)
 - [outputs/notebook_chart_08.png](./outputs/notebook_chart_08.png)
 - [outputs/notebook_chart_09.png](./outputs/notebook_chart_09.png)
+- [outputs/Prathamesh_Task8.ipynb](./outputs/Prathamesh_Task8.ipynb)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

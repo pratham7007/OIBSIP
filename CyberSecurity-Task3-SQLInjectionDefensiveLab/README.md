@@ -30,3 +30,6 @@ Primary deliverable: [`secure_query_examples.py`](./secure_query_examples.py).
 
 - [outputs/secure_query_examples.py](./outputs/secure_query_examples.py)
 - [outputs/sql_injection_notes.md](./outputs/sql_injection_notes.md)
+- [outputs/Prathamesh_Task3.py](./outputs/Prathamesh_Task3.py)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

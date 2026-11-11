@@ -28,3 +28,6 @@ Primary deliverable: [`04_sms_spam_detection.ipynb`](./04_sms_spam_detection.ipy
 
 - [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
 - [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
+- [outputs/Prathamesh_Task4.ipynb](./outputs/Prathamesh_Task4.ipynb)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

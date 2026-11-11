@@ -29,3 +29,6 @@ Primary deliverable: [`src/main/java/com/oasis/library/LibraryServer.java`](./sr
 ## Generated outputs
 
 - [outputs/digital-library-1.0.0.jar](./outputs/digital-library-1.0.0.jar)
+- [outputs/Prathamesh_Task5.jar](./outputs/Prathamesh_Task5.jar)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

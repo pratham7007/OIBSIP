@@ -29,3 +29,6 @@ Primary deliverable: [`src/main/java/com/oasis/atm/Main.java`](./src/main/java/c
 ## Generated outputs
 
 - [outputs/atm-interface-1.0.0.jar](./outputs/atm-interface-1.0.0.jar)
+- [outputs/Prathamesh_Task3.jar](./outputs/Prathamesh_Task3.jar)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

@@ -29,3 +29,6 @@ Primary deliverable: [`password_generator.py`](./password_generator.py).
 ## Generated outputs
 
 - [outputs/smoke_test_results.txt](./outputs/smoke_test_results.txt)
+- [outputs/Prathamesh_Task3.py](./outputs/Prathamesh_Task3.py)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

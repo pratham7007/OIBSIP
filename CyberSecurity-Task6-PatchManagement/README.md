@@ -29,3 +29,6 @@ Primary deliverable: [`patch_management_report.md`](./patch_management_report.md
 ## Generated outputs
 
 - [outputs/patch_management_report.md](./outputs/patch_management_report.md)
+- [outputs/Prathamesh_Task6.md](./outputs/Prathamesh_Task6.md)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)

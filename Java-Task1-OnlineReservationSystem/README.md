@@ -29,3 +29,6 @@ Primary deliverable: [`src/main/java/com/oasis/train/TrainReservationApp.java`](
 ## Generated outputs
 
 - [outputs/train-reservation-1.0.0.jar](./outputs/train-reservation-1.0.0.jar)
+- [outputs/Prathamesh_Task1.jar](./outputs/Prathamesh_Task1.jar)
+- [outputs/video_title_card.png](./outputs/video_title_card.png)
+- [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
