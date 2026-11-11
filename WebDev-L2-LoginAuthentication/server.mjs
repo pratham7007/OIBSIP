@@ -176,12 +176,17 @@ app.get('/dashboard.html', requireSession, (request, response) => {
 
 app.use(express.static(publicDir));
 app.use((error, request, response, next) => {
-  console.error(error);
   if (response.headersSent) {
     next(error);
     return;
   }
-  response.status(500).json({ error: 'The request could not be completed.' });
+  const status = Number.isInteger(error.status) && error.status >= 400 && error.status < 500
+    ? error.status
+    : 500;
+  if (status === 500) console.error(error);
+  response.status(status).json({
+    error: status === 400 ? 'The request body must be valid JSON.' : 'The request could not be completed.'
+  });
 });
 
 const port = Number(process.env.PORT ?? 4173);

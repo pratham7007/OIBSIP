@@ -3,7 +3,7 @@
 **Student:** Prathamesh Karanjkar
 **GitHub repository:** [pratham7007/OIBSIP](https://github.com/pratham7007/OIBSIP)
 
-This index links to the independent root-level task folders. Each folder contains its task deliverable(s), a task-specific README, and a `PrathameshKaranjkar_TaskN.md` submission reference. The original track-organized source folders are retained to preserve their existing paths.
+This index links to the independent root-level task folders. Each folder contains its task deliverable(s), a task-specific README, and a `PrathameshKaranjkar_TaskN.md` submission reference. These task-named folders are canonical; the duplicate uppercase track folders have been removed.
 
 ## Task index
 
@@ -67,4 +67,3 @@ This index links to the independent root-level task folders. Each folder contain
 - Install only the runtime/dependencies listed in each task README; local databases, build outputs, virtual environments, and dependency caches are excluded from Git.
 - Data-analysis notebooks that use synthetic data or proxy measures say so in their task documentation; do not present those results as measured real-world findings.
 - Security tasks distinguish research/templates from practical evidence. Run security tools only against systems you own or are explicitly authorized to assess.
-- The workspace audit and remaining environment-dependent checklist items are documented in [PDF-AUDIT-REPORT.md](./PDF-AUDIT-REPORT.md).

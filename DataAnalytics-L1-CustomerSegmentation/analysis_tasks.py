@@ -174,7 +174,7 @@ def spam_detection() -> None:
     print("TF-IDF weights words by term frequency in a message and inverse document frequency across messages.")
     data = DATA_DIR / "SMSSpamCollection"
     if not data.exists():
-        raise FileNotFoundError(f"Dataset not found at {data}. See DATA SCIENCE/README.md to download the UCI SMS Spam Collection.")
+        raise FileNotFoundError(f"Dataset not found at {data}. See this task's README.md for setup instructions.")
     df = pd.read_csv(data, sep="\t", header=None, names=["label", "text"], encoding="utf-8")
     report(df)
     print(df.label.value_counts(normalize=True).mul(100).round(2).astype(str) + "%")
@@ -498,7 +498,7 @@ def house_prices() -> None:
 def wine_quality() -> None:
     data=DATA_DIR/"winequality-red.csv"
     if not data.exists():
-        raise FileNotFoundError(f"Download UCI Wine Quality data to {data}; see DATA ANALYTICS/README.md.")
+        raise FileNotFoundError(f"Download UCI Wine Quality data to {data}; see this task's README.md for setup instructions.")
     df=pd.read_csv(data,sep=";")
     report(df)
     feature_columns=[column for column in df.select_dtypes("number").columns if column!="quality"]
