@@ -26,7 +26,11 @@ Primary deliverable: [`03_car_price_prediction.ipynb`](./03_car_price_prediction
 
 > Synthetic-data provenance is called out in the notebook and must not be presented as measured findings.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
+- [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
+- [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
+- [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)
+- [outputs/notebook_chart_04.png](./outputs/notebook_chart_04.png)
+- [outputs/notebook_chart_05.png](./outputs/notebook_chart_05.png)

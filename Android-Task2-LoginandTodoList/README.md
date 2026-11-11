@@ -26,7 +26,6 @@ Primary deliverable: [`app/src/main/java/com/oasis/internship/LoginActivity.java
 
 > Each task folder contains the full launcher app so its task can be run and explored independently; open the named screen from the launcher.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/app-debug.apk](./outputs/app-debug.apk)

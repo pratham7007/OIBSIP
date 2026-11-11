@@ -20,13 +20,12 @@ Python, Pillow, SVG, PNG, PDF.
 
 ## How to run / setup
 
-Open the primary PNG/PDF/SVG in this folder. To regenerate the original graphics set, install Pillow with `python -m pip install Pillow` and run `python create_designs.py`.
+Open the primary deliverable in `outputs/`. To regenerate the original graphics set, install Pillow with `python -m pip install Pillow` and run `python create_designs.py`.
 
-Primary deliverable: [`infographic\small_habits_wellbeing_infographic.png`](./infographic\small_habits_wellbeing_infographic.png).
+Primary deliverable: [`small_habits_wellbeing_infographic.png`](./outputs/infographic/small_habits_wellbeing_infographic.png).
 
 > The generator creates original artwork; the LinkedIn post copy is prepared locally and has not been published.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/infographic/small_habits_wellbeing_infographic.png](./outputs/infographic/small_habits_wellbeing_infographic.png)

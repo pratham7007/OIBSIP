@@ -26,7 +26,9 @@ Primary deliverable: [`03_fraud_detection.ipynb`](./03_fraud_detection.ipynb).
 
 > Data provenance caveats are documented in the notebook and README; synthetic records are not empirical findings.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
+- [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
+- [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
+- [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)

@@ -24,7 +24,6 @@ Install Node.js, run `npm install`, then `npm start`; open `http://localhost:417
 
 Primary deliverable: [`public/index.html`](./public/index.html).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/todo-app.png](./outputs/todo-app.png)

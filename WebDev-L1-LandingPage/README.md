@@ -24,7 +24,6 @@ Serve the folder with `python -m http.server 8000`, then open the stated local U
 
 Primary deliverable: [`index.html`](./index.html).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/landing-page.png](./outputs/landing-page.png)

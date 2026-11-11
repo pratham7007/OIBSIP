@@ -24,7 +24,7 @@ Install dependencies with `python -m pip install -r requirements.txt`, then run 
 
 Primary deliverable: [`04_sms_spam_detection.ipynb`](./04_sms_spam_detection.ipynb).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
+- [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)

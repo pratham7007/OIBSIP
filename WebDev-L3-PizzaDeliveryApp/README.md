@@ -26,7 +26,8 @@ Primary deliverable: [`client/index.html`](./client/index.html).
 
 > Payment integration is restricted to test keys; without payment credentials the app uses a clearly labelled local demo confirmation.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/client-dist/assets/index-B50rD4yw.js](./outputs/client-dist/assets/index-B50rD4yw.js)
+- [outputs/client-dist/assets/index-CbDqTpNY.css](./outputs/client-dist/assets/index-CbDqTpNY.css)
+- [outputs/client-dist/index.html](./outputs/client-dist/index.html)

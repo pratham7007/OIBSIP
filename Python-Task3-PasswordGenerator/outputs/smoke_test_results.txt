@@ -1,0 +1,2 @@
+Task deliverable smoke-test record
+PASS: lengths 8, 20, and 256 meet selected-set guarantees and ambiguous-character policy; length 7 is rejected. Password values intentionally not logged.

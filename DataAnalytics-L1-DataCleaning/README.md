@@ -24,7 +24,8 @@ Install dependencies with `python -m pip install -r requirements.txt`, then run 
 
 Primary deliverable: [`03_cleaning_data.ipynb`](./03_cleaning_data.ipynb).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/cleaned_online_retail_sample.csv](./outputs/cleaned_online_retail_sample.csv)
+- [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
+- [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)

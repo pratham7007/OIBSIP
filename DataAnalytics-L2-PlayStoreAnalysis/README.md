@@ -24,7 +24,15 @@ Install dependencies with `python -m pip install -r requirements.txt`, then run 
 
 Primary deliverable: [`04_play_store_analysis.ipynb`](./04_play_store_analysis.ipynb).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
+- [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
+- [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
+- [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)
+- [outputs/notebook_chart_04.png](./outputs/notebook_chart_04.png)
+- [outputs/notebook_chart_05.png](./outputs/notebook_chart_05.png)
+- [outputs/notebook_chart_06.png](./outputs/notebook_chart_06.png)
+- [outputs/notebook_chart_07.png](./outputs/notebook_chart_07.png)
+- [outputs/notebook_chart_08.png](./outputs/notebook_chart_08.png)
+- [outputs/notebook_chart_09.png](./outputs/notebook_chart_09.png)

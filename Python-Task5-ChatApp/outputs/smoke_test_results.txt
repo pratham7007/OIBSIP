@@ -1,0 +1,2 @@
+Task deliverable smoke-test record
+PASS: PBKDF2 password-hash verification distinguishes matching and non-matching credentials; chat UI and database persistence were not exercised in this check.

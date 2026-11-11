@@ -1,0 +1,2 @@
+Task deliverable smoke-test record
+PASS: missing-credential guard reports setup guidance without making a network request; live weather remains dependent on a user-supplied API key.

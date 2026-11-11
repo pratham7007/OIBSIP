@@ -1,0 +1,2 @@
+Task deliverable smoke-test record
+PASS: text command, empty-input fallback, and clean exit; microphone, speech-recognition service, and external APIs not exercised.

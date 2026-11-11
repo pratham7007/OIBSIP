@@ -20,13 +20,18 @@ Python, Pillow, SVG, PNG, PDF.
 
 ## How to run / setup
 
-Open the primary PNG/PDF/SVG in this folder. To regenerate the original graphics set, install Pillow with `python -m pip install Pillow` and run `python create_designs.py`.
+Open the primary deliverable in `outputs/`. To regenerate the original graphics set, install Pillow with `python -m pip install Pillow` and run `python create_designs.py`.
 
-Primary deliverable: [`brochure\lumen_field_notes_brochure.pdf`](./brochure\lumen_field_notes_brochure.pdf).
+Primary deliverable: [`lumen_field_notes_brochure.pdf`](./outputs/brochure/lumen_field_notes_brochure.pdf).
 
 > The generator creates original artwork; the LinkedIn post copy is prepared locally and has not been published.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/brochure/lumen_field_notes_brochure.pdf](./outputs/brochure/lumen_field_notes_brochure.pdf)
+- [outputs/brochure/page_01.png](./outputs/brochure/page_01.png)
+- [outputs/brochure/page_02.png](./outputs/brochure/page_02.png)
+- [outputs/brochure/page_03.png](./outputs/brochure/page_03.png)
+- [outputs/brochure/page_04.png](./outputs/brochure/page_04.png)
+- [outputs/brochure/page_05.png](./outputs/brochure/page_05.png)
+- [outputs/brochure/page_06.png](./outputs/brochure/page_06.png)

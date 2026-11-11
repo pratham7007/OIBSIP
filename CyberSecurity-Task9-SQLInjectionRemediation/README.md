@@ -26,7 +26,6 @@ Primary deliverable: [`sql_injection_remediation.md`](./sql_injection_remediatio
 
 > No third-party scans, exploitation, packet capture, or fabricated evidence are included. Practical work requiring a lab remains clearly marked as pending.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/sql_injection_remediation.md](./outputs/sql_injection_remediation.md)

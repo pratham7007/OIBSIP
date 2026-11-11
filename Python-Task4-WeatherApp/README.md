@@ -26,7 +26,6 @@ Primary deliverable: [`weather_app.py`](./weather_app.py).
 
 > Live microphone, remote speech recognition, weather API, SMTP, and local chat runtime require the respective hardware/services and were not claimed as tested.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/smoke_test_results.txt](./outputs/smoke_test_results.txt)

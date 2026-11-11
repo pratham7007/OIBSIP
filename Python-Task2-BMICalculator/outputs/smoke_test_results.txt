@@ -1,0 +1,2 @@
+Task deliverable smoke-test record
+PASS: all four BMI classification categories; desktop display and local history UI not launched.

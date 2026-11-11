@@ -26,7 +26,6 @@ Primary deliverable: [`src/main/java/com/oasis/library/LibraryServer.java`](./sr
 
 > Database-backed demos create local data at runtime; do not use real credentials.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/digital-library-1.0.0.jar](./outputs/digital-library-1.0.0.jar)

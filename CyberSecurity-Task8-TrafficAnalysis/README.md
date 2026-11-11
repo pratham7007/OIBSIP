@@ -26,7 +26,6 @@ Primary deliverable: [`capture_notes.txt`](./capture_notes.txt).
 
 > No third-party scans, exploitation, packet capture, or fabricated evidence are included. Practical work requiring a lab remains clearly marked as pending.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/capture_notes.txt](./outputs/capture_notes.txt)

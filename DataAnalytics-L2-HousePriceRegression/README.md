@@ -24,7 +24,10 @@ Install dependencies with `python -m pip install -r requirements.txt`, then run 
 
 Primary deliverable: [`01_house_price_regression.ipynb`](./01_house_price_regression.ipynb).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
+- [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
+- [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
+- [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)
+- [outputs/notebook_chart_04.png](./outputs/notebook_chart_04.png)

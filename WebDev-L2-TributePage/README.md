@@ -24,7 +24,6 @@ Serve the folder with `python -m http.server 8000`, then open the stated local U
 
 Primary deliverable: [`tribute.html`](./tribute.html).
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/tribute.png](./outputs/tribute.png)

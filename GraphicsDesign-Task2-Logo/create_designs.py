@@ -76,7 +76,7 @@ def draw_mark(draw: ImageDraw.ImageDraw, cx: int, cy: int, radius: int, color: s
 
 
 def make_logo() -> None:
-    folder = ROOT / "logo"
+    folder = ROOT / "outputs" / "logo"
     folder.mkdir(exist_ok=True)
     variants = [
         ("full_color", COLORS["teal"], COLORS["ink"], (0, 0, 0, 0)),
@@ -146,7 +146,7 @@ def poster(path: Path, title: str, subtitle: str, body: str, cta: str, palette: 
 
 
 def make_posters() -> None:
-    folder = ROOT / "posters"
+    folder = ROOT / "outputs" / "posters"
     folder.mkdir(exist_ok=True)
     poster(folder / "01_slow_mornings.png", "SLOW\nMORNINGS", "A neighbourhood coffee and makers market",
            "Meet local makers, find your next favourite cup, and take a little time for yourself.\n\nSaturday, 9 AM–2 PM  •  Riverside Hall",
@@ -157,7 +157,7 @@ def make_posters() -> None:
 
 
 def make_cards() -> None:
-    folder = ROOT / "business-card"
+    folder = ROOT / "outputs" / "business-card"
     folder.mkdir(exist_ok=True)
     w, h = 1075, 720  # 91 x 61 mm including 3 mm bleed at 300 dpi.
     images = []
@@ -196,7 +196,7 @@ def make_cards() -> None:
 
 
 def make_infographic() -> None:
-    folder = ROOT / "infographic"
+    folder = ROOT / "outputs" / "infographic"
     folder.mkdir(exist_ok=True)
     w, h = 800, 2000
     palette = {
@@ -289,7 +289,7 @@ def make_infographic() -> None:
 
 
 def make_brochure() -> None:
-    folder = ROOT / "brochure"
+    folder = ROOT / "outputs" / "brochure"
     folder.mkdir(exist_ok=True)
     w, h = 1240, 1754
     pages: list[Image.Image] = []

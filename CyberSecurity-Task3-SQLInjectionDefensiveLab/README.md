@@ -26,7 +26,7 @@ Primary deliverable: [`secure_query_examples.py`](./secure_query_examples.py).
 
 > No third-party scans, exploitation, packet capture, or fabricated evidence are included. Practical work requiring a lab remains clearly marked as pending.
 
-## Screenshots / demo video
+## Generated outputs
 
-- Screenshots: _Add screenshot links here._
-- Demo video: _Add a demo video link here._
+- [outputs/secure_query_examples.py](./outputs/secure_query_examples.py)
+- [outputs/sql_injection_notes.md](./outputs/sql_injection_notes.md)

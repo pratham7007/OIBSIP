@@ -40,7 +40,7 @@ sns.set_theme(style="whitegrid")
 def load_online_retail() -> pd.DataFrame:
     if not ONLINE_RETAIL_PATH.exists():
         raise FileNotFoundError(
-            f"Download UCI Online Retail with build_notebooks.py; expected {ONLINE_RETAIL_PATH}."
+            f"Download UCI Online Retail as described in README.md; expected {ONLINE_RETAIL_PATH}."
         )
     return pd.read_excel(ONLINE_RETAIL_PATH, engine="openpyxl")
 
@@ -415,7 +415,7 @@ def clean_data() -> None:
 
 def sentiment_analysis() -> None:
     if not PHRASEBANK_PATH.exists():
-        raise FileNotFoundError(f"Download Financial PhraseBank using build_notebooks.py; expected {PHRASEBANK_PATH}.")
+        raise FileNotFoundError(f"Download Financial PhraseBank as described in README.md; expected {PHRASEBANK_PATH}.")
     rows=[]
     for line in PHRASEBANK_PATH.read_text(encoding="latin-1").splitlines():
         if "@" in line:
@@ -464,7 +464,7 @@ def sentiment_analysis() -> None:
 
 def house_prices() -> None:
     if not REAL_ESTATE_PATH.exists():
-        raise FileNotFoundError(f"Download UCI Real Estate Valuation using build_notebooks.py; expected {REAL_ESTATE_PATH}.")
+        raise FileNotFoundError(f"Download UCI Real Estate Valuation as described in README.md; expected {REAL_ESTATE_PATH}.")
     print("DATA PROVENANCE: UCI Real Estate Valuation; historical Sindian District (Taiwan) transaction data.")
     df=pd.read_excel(REAL_ESTATE_PATH,engine="openpyxl")
     df=df.rename(columns={
@@ -560,7 +560,7 @@ def play_store() -> None:
     review_path=DATA_DIR/"google_play_user_reviews.csv"
     if not app_path.exists() or not review_path.exists():
         raise FileNotFoundError(
-            "Download the licensed Play Store datasets using build_notebooks.py; "
+            "Download the licensed Play Store datasets as described in README.md; "
             f"expected {app_path} and {review_path}."
         )
     print("DATA PROVENANCE: Google Play app metadata and user-review sentiment dataset; collected in 2018.")
