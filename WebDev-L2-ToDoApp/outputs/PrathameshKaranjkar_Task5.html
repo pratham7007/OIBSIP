@@ -3,35 +3,339 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>To-do Web Application - OIBSIP submission</title>
+  <title>To-do App — Level 2</title>
   <style>
-    :root { color-scheme: light; font-family: system-ui, Segoe UI, sans-serif; color: #17243b; background: #f2f6fa; }
-    body { margin: 0; padding: 3rem 1rem; }
-    main { max-width: 860px; margin: auto; padding: 2.5rem; border-radius: 20px; background: white; box-shadow: 0 16px 48px #13263c18; }
-    .eyebrow { color: #137b72; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
-    h1 { margin-bottom: .35rem; }
-    .meta { color: #53647b; }
-    li { margin: .55rem 0; }
-    a { color: #075e9b; }
-    footer { margin-top: 2rem; color: #53647b; font-size: .95rem; }
-  </style>
+500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root {
+  color-scheme: light;
+  --ink: #17211b;
+  --muted: #65736b;
+  --paper: #f6f7f1;
+  --surface: #fffefa;
+  --line: #dce4da;
+  --green: #205b45;
+  --mint: #d9eee1;
+  --orange: #e88751;
+  --shadow: 0 18px 50px rgba(24, 50, 37, .1);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font: 16px/1.65 'DM Sans', sans-serif;
+}
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+img { display: block; max-width: 100%; }
+.wrap { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+.bar {
+  position: sticky; top: 0; z-index: 5;
+  border-bottom: 1px solid rgba(220, 228, 218, .8);
+  background: rgba(255, 254, 250, .91);
+  backdrop-filter: blur(14px);
+}
+.nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.brand { font: 800 1.05rem 'Manrope', sans-serif; letter-spacing: .12em; }
+.navlinks { display: flex; align-items: center; gap: 24px; color: var(--muted); font-weight: 600; }
+.navlinks a:hover, .navlinks a:focus-visible { color: var(--green); }
+.button {
+  display: inline-flex; min-height: 48px; align-items: center; justify-content: center;
+  padding: 11px 20px; border: 0; border-radius: 999px;
+  color: white; background: var(--green); font-weight: 700; cursor: pointer;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.button:hover { transform: translateY(-2px); box-shadow: 0 9px 22px rgba(32, 91, 69, .2); }
+.button.outline { color: var(--green); background: transparent; border: 1px solid var(--line); }
+.button.small { min-height: 38px; padding: 7px 14px; font-size: .9rem; }
+.eyebrow { color: var(--green); font-size: .76rem; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+h1, h2, h3 { font-family: 'Manrope', sans-serif; line-height: 1.12; }
+h1 { font-size: clamp(2.6rem, 6vw, 5rem); letter-spacing: -.055em; }
+h2 { font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -.04em; }
+h3 { font-size: 1.3rem; }
+p { color: var(--muted); }
+.hero { padding: clamp(64px, 10vw, 126px) 0 80px; background: radial-gradient(ellipse at 82% 15%, #e0eee0 0, transparent 38%), var(--paper); }
+.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: clamp(32px, 7vw, 88px); }
+.hero h1 { max-width: 700px; margin: 18px 0; }
+.hero-copy > p { max-width: 570px; font-size: 1.12rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.hero-art {
+  min-height: 350px; display: grid; place-items: center; overflow: hidden;
+  border-radius: 38% 62% 52% 48% / 50% 43% 57% 50%;
+  background: linear-gradient(145deg, #bedcc7, #edf2d8);
+}
+.art-card { width: min(75%, 340px); padding: 28px; border: 1px solid rgba(255,255,255,.8); border-radius: 24px; background: rgba(255,254,250,.87); box-shadow: var(--shadow); transform: rotate(-3deg); }
+.art-card span { display: block; color: var(--muted); }
+.art-card strong { display: block; margin: 9px 0 18px; font: 800 2.4rem 'Manrope', sans-serif; }
+.bars { display: grid; gap: 9px; }
+.bars i { height: 9px; border-radius: 20px; background: var(--mint); }
+.bars i:nth-child(2) { width: 78%; background: #e5bd93; }
+.bars i:nth-child(3) { width: 56%; }
+.section { padding: 88px 0; }
+.section-head { max-width: 680px; margin: 0 auto 38px; text-align: center; }
+.section-head h2 { margin: 12px 0; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.card { padding: 26px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); }
+.card p { margin-bottom: 0; }
+.icon { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 16px; background: var(--mint); font-size: 1.3rem; }
+.band { background: #eaf0e5; }
+.quote { padding: 30px; border-left: 4px solid var(--orange); border-radius: 0 18px 18px 0; background: #fffefa; font: 600 1.25rem/1.5 'Manrope', sans-serif; }
+.footer { padding: 30px 0; border-top: 1px solid var(--line); }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.footer p { margin: 0; font-size: .9rem; }
+.task-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 42px 0 88px; }
+.task-link { display: block; padding: 26px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); transition: transform .18s, box-shadow .18s; }
+.task-link:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.task-link h3 { margin: 8px 0; }
+.task-link p { margin: 0; }
+.page-intro { padding: 56px 0 10px; }
+.page-intro h1 { font-size: clamp(2.3rem, 5vw, 3.7rem); margin: 10px 0; }
+.calculator { width: min(430px, 100%); margin: 36px auto 90px; padding: 22px; border: 1px solid var(--line); border-radius: 26px; background: var(--surface); box-shadow: var(--shadow); }
+.calc-display { min-height: 110px; display: flex; align-items: end; justify-content: flex-end; overflow: hidden; padding: 15px; border-radius: 16px; background: #edf2e8; font: 700 2rem 'Manrope', sans-serif; overflow-wrap: anywhere; }
+.calc-error { min-height: 24px; padding: 6px 4px; color: #a63e30; font-size: .88rem; }
+.keys { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 9px; }
+.key { min-height: 58px; border: 0; border-radius: 15px; background: #f0f2ec; font-weight: 700; cursor: pointer; }
+.key:hover { background: #e3ebe1; }
+.key.operator { color: var(--green); background: #e4efe5; }
+.key.action { color: #98513a; background: #f8eadd; }
+.key.equal { color: white; background: var(--green); }
+.portrait { width: min(100%, 440px); max-height: 510px; object-fit: cover; object-position: center 28%; border-radius: 190px 190px 24px 24px; box-shadow: var(--shadow); }
+.tribute-hero { padding: 62px 0; background: #eaf0e5; }
+.tribute-grid { display: grid; grid-template-columns: 1fr .8fr; align-items: center; gap: 52px; }
+.tribute-grid h1 { font-size: clamp(3rem, 6vw, 5.2rem); margin: 12px 0; }
+.caption { margin-top: 8px; text-align: right; font-size: .8rem; }
+.timeline { display: grid; gap: 14px; max-width: 800px; margin: auto; }
+.time-item { display: grid; grid-template-columns: 94px 1fr; gap: 20px; padding: 20px; border-radius: 16px; background: var(--surface); }
+.time-item time { color: var(--green); font-weight: 800; }
+.todo-app { padding: 44px 0 90px; }
+.todo-form { display: flex; gap: 10px; margin: 24px 0; }
+.field { width: 100%; min-height: 48px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: white; }
+.todo-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.todo-panel { min-width: 0; padding: 22px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); }
+.todo-panel h2 { display: flex; justify-content: space-between; gap: 10px; font-size: 1.35rem; }
+.count { color: var(--muted); font: 600 .85rem 'DM Sans', sans-serif; }
+.todo-list { display: grid; gap: 10px; padding: 0; list-style: none; }
+.todo-item { display: flex; align-items: center; gap: 10px; padding: 12px; border: 1px solid var(--line); border-radius: 14px; }
+.todo-text { min-width: 0; flex: 1; overflow-wrap: anywhere; }
+.todo-meta { display: block; color: var(--muted); font-size: .78rem; }
+.todo-item.done .todo-text { text-decoration: line-through; color: var(--muted); }
+.todo-actions { display: flex; flex-wrap: wrap; justify-content: end; gap: 6px; }
+.todo-actions button { min-height: 34px; padding: 5px 9px; border: 1px solid var(--line); border-radius: 9px; background: white; cursor: pointer; }
+.empty { padding: 16px; border: 1px dashed var(--line); border-radius: 12px; color: var(--muted); text-align: center; }
+.notice { min-height: 26px; margin: 10px 0; color: #a63e30; }
+.auth-card { width: min(480px, 100%); margin: 48px auto 90px; padding: 30px; border: 1px solid var(--line); border-radius: 22px; background: var(--surface); box-shadow: var(--shadow); }
+.auth-card h1 { font-size: 2rem; margin: 0 0 8px; }
+.auth-form { display: grid; gap: 14px; margin-top: 22px; }
+.auth-form label { display: grid; gap: 6px; font-weight: 700; }
+.form-message { min-height: 26px; margin: 6px 0; color: var(--green); }
+.form-message.error { color: #a63e30; }
+.auth-bottom { margin: 18px 0 0; }
+.profile-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; }
+
+@media (max-width: 760px) {
+  .nav { min-height: 68px; flex-wrap: wrap; padding: 12px 0; }
+  .navlinks { gap: 14px; font-size: .9rem; }
+  .hero-grid, .tribute-grid { grid-template-columns: 1fr; }
+  .hero-art { min-height: 270px; }
+  .grid, .todo-columns { grid-template-columns: 1fr; }
+  .section { padding: 64px 0; }
+  .task-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .wrap { width: min(100% - 28px, 1120px); }
+  .nav { align-items: flex-start; }
+  .navlinks { width: 100%; justify-content: space-between; }
+  .todo-form { flex-direction: column; }
+  .todo-item { align-items: flex-start; flex-wrap: wrap; }
+  .todo-actions { width: 100%; justify-content: flex-start; }
+  .time-item { grid-template-columns: 1fr; gap: 4px; }
+}
+
+</style>
 </head>
-<body>
-  <main>
-    <p class="eyebrow">Oasis Infobyte - Web Development &amp; Designing</p>
-    <h1>To-do Web Application</h1>
-    <p class="meta">L2 / Task 5</p>
-    <p><strong>Submitted by:</strong> Prathamesh Karanjkar</p>
-    <h2>Objective</h2>
-    <p>Track personal tasks through an authenticated browser application backed by a local API.</p>
-    <h2>Technology</h2>
-    <p>HTML5, CSS3, JavaScript, Node.js, Express.</p>
-    <h2>Key features</h2>
-    <ul><li>Register/sign in and authenticated task dashboard</li><li>Create, complete, and remove tasks</li><li>Local JSON-backed user store, scrypt password hashes, and HTTP-only session cookies</li></ul>
-    <h2>Project files and evidence</h2>
-    <p><a href="../public/index.html">Open the original project entry point</a></p>
-    <p><a href="./todo-app.png">View the captured project screenshot</a></p>
-    <footer>Repository: <a href="https://github.com/pratham7007/OIBSIP/tree/main/WebDev-L2-ToDoApp">github.com/pratham7007/OIBSIP</a></footer>
+<body id="top">
+  <header class="bar"><nav class="wrap nav" aria-label="Main navigation"><a class="brand" href="#top">OASIS / WEB</a><div class="navlinks"><a href="#top">All tasks</a><a href="#top">Calculator</a><a href="#top">Authentication</a></div></nav></header>
+  <main class="wrap todo-app">
+    <span class="eyebrow">Level 2 · Task 3</span><h1 style="font-size:clamp(2.5rem,5vw,4rem);margin:10px 0">Make room for what matters.</h1>
+    <p>Capture the next thing. You can edit, complete, or remove it whenever plans change.</p>
+    <form class="todo-form" id="todo-form"><label class="sr-only" for="task-input" style="position:absolute;left:-10000px">New task</label><input class="field" id="task-input" maxlength="240" placeholder="What needs doing?" required><button class="button" type="submit">Add task</button></form>
+    <p id="storage-message" class="notice" role="status" aria-live="polite"></p>
+    <div class="todo-columns">
+      <section class="todo-panel" aria-labelledby="pending-heading"><h2 id="pending-heading">Pending <span class="count" id="pending-count">0 pending</span></h2><ul class="todo-list" id="pending-list"></ul></section>
+      <section class="todo-panel" aria-labelledby="completed-heading"><h2 id="completed-heading">Completed <span class="count" id="completed-count">0 completed</span></h2><ul class="todo-list" id="completed-list"></ul></section>
+    </div>
   </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="#top">OASIS / WEB</a><p>Your tasks are saved in this browser.</p></div></footer>
+
+<script>
+const storageKey = 'oasis-level2-tasks';
+const form = document.querySelector('#todo-form');
+const input = document.querySelector('#task-input');
+const pendingList = document.querySelector('#pending-list');
+const completedList = document.querySelector('#completed-list');
+const pendingCount = document.querySelector('#pending-count');
+const completedCount = document.querySelector('#completed-count');
+const storageMessage = document.querySelector('#storage-message');
+let tasks = loadTasks();
+
+function loadTasks() {
+  try {
+    const stored = localStorage.getItem(storageKey);
+    if (!stored) return [];
+    const parsed = JSON.parse(stored);
+    if (!Array.isArray(parsed)) throw new Error('Saved task data has an unexpected format.');
+    return parsed.filter((task) =>
+      task && typeof task.id === 'string' && typeof task.text === 'string' &&
+      typeof task.completed === 'boolean' && typeof task.createdAt === 'string'
+    );
+  } catch (error) {
+    storageMessage.textContent = `Could not read saved tasks: ${error.message}`;
+    return [];
+  }
+}
+
+function persistTasks() {
+  try {
+    localStorage.setItem(storageKey, JSON.stringify(tasks));
+    storageMessage.textContent = '';
+  } catch (error) {
+    storageMessage.textContent = `Could not save tasks in this browser: ${error.message}`;
+  }
+}
+
+function formatTime(value) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? 'Date unavailable' : date.toLocaleString();
+}
+
+function buildTask(task) {
+  const item = document.createElement('li');
+  item.className = `todo-item${task.completed ? ' done' : ''}`;
+  item.dataset.id = task.id;
+
+  const text = document.createElement('span');
+  text.className = 'todo-text';
+  text.textContent = task.text;
+  const meta = document.createElement('span');
+  meta.className = 'todo-meta';
+  meta.textContent = `Added ${formatTime(task.createdAt)}${task.completedAt ? ` · Completed ${formatTime(task.completedAt)}` : ''}`;
+  text.append(meta);
+
+  const actions = document.createElement('span');
+  actions.className = 'todo-actions';
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.dataset.action = 'toggle';
+  toggle.textContent = task.completed ? 'Reopen' : 'Complete';
+  toggle.setAttribute('aria-label', `${task.completed ? 'Reopen' : 'Complete'}: ${task.text}`);
+  const edit = document.createElement('button');
+  edit.type = 'button';
+  edit.dataset.action = 'edit';
+  edit.textContent = 'Edit';
+  edit.setAttribute('aria-label', `Edit: ${task.text}`);
+  const remove = document.createElement('button');
+  remove.type = 'button';
+  remove.dataset.action = 'delete';
+  remove.textContent = 'Delete';
+  remove.setAttribute('aria-label', `Delete: ${task.text}`);
+  actions.append(toggle, edit, remove);
+  item.append(text, actions);
+  return item;
+}
+
+function renderList(list, items, emptyMessage) {
+  list.replaceChildren();
+  if (!items.length) {
+    const empty = document.createElement('li');
+    empty.className = 'empty';
+    empty.textContent = emptyMessage;
+    list.append(empty);
+    return;
+  }
+  items.forEach((task) => list.append(buildTask(task)));
+}
+
+function render() {
+  const pending = tasks.filter((task) => !task.completed);
+  const completed = tasks.filter((task) => task.completed);
+  pendingCount.textContent = `${pending.length} pending`;
+  completedCount.textContent = `${completed.length} completed`;
+  renderList(pendingList, pending, 'All caught up. Add a task to get started.');
+  renderList(completedList, completed, 'Completed tasks will appear here.');
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const text = input.value.trim();
+  if (!text) {
+    input.focus();
+    return;
+  }
+  tasks.unshift({ id: crypto.randomUUID(), text, completed: false, createdAt: new Date().toISOString() });
+  persistTasks();
+  render();
+  form.reset();
+  input.focus();
+});
+
+document.querySelector('.todo-columns').addEventListener('click', (event) => {
+  const button = event.target.closest('button[data-action]');
+  const item = button?.closest('.todo-item');
+  if (!button || !item) return;
+  const task = tasks.find((entry) => entry.id === item.dataset.id);
+  if (!task) return;
+
+  if (button.dataset.action === 'toggle') {
+    task.completed = !task.completed;
+    task.completedAt = task.completed ? new Date().toISOString() : null;
+  } else if (button.dataset.action === 'delete') {
+    tasks = tasks.filter((entry) => entry.id !== task.id);
+  } else if (button.dataset.action === 'edit') {
+    const editor = document.createElement('form');
+    editor.className = 'todo-form';
+    editor.style.margin = '0';
+    const field = document.createElement('input');
+    field.className = 'field';
+    field.maxLength = 240;
+    field.value = task.text;
+    field.setAttribute('aria-label', 'Edit task');
+    const save = document.createElement('button');
+    save.type = 'submit';
+    save.className = 'button small';
+    save.textContent = 'Save';
+    editor.append(field, save);
+    item.replaceChildren(editor);
+    field.focus();
+    field.select();
+    editor.addEventListener('submit', (submitEvent) => {
+      submitEvent.preventDefault();
+      const updatedText = field.value.trim();
+      if (!updatedText) {
+        field.focus();
+        return;
+      }
+      task.text = updatedText;
+      persistTasks();
+      render();
+    });
+    return;
+  }
+  persistTasks();
+  render();
+});
+
+window.addEventListener('storage', (event) => {
+  if (event.key === storageKey) {
+    tasks = loadTasks();
+    render();
+  }
+});
+
+render();
+</script>
 </body>
 </html>

@@ -6,23 +6,23 @@
 
 ## Objective & description
 
-Demonstrate account registration and login with server-side password hashing and session handling.
+Demonstrate an account registration and sign-in flow in a standalone browser page.
 
 ## Tech stack
 
-HTML5, CSS3, JavaScript, Node.js, Express.
+HTML5, CSS3, JavaScript.
 
 ## Features implemented
 
-- Registration and login flows with input validation
-- scrypt password hashing and HTTP-only session cookies
-- Local JSON user store generated at first registration
+- Registration, sign-in, a protected demo view, and logout
+- Password validation and clear feedback for invalid credentials
+- Demo account and session state stay in memory and are cleared when the page reloads
 
 ## How to run / setup
 
-Install Node.js, run `npm install`, then `npm start`; open `http://localhost:4173`.
+Open the standalone deliverable below directly in a browser. It has no server or persistent account store and is for UI demonstration only; do not use it to protect real accounts.
 
-Primary deliverable: [`public/login.html`](./public/login.html).
+Primary deliverable: [`outputs/PrathameshKaranjkar_Task6.html`](./outputs/PrathameshKaranjkar_Task6.html).
 
 ## Generated outputs
 

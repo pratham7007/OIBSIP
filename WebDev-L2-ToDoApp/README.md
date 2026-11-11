@@ -6,23 +6,23 @@
 
 ## Objective & description
 
-Track personal tasks through an authenticated browser application backed by a local API.
+Track personal tasks in a responsive browser application with local persistence.
 
 ## Tech stack
 
-HTML5, CSS3, JavaScript, Node.js, Express.
+HTML5, CSS3, JavaScript.
 
 ## Features implemented
 
-- Register/sign in and authenticated task dashboard
-- Create, complete, and remove tasks
-- Local JSON-backed user store, scrypt password hashes, and HTTP-only session cookies
+- Add, edit, complete, and delete tasks
+- Pending/completed views with timestamps and accessible controls
+- Save tasks in browser local storage
 
 ## How to run / setup
 
-Install Node.js, run `npm install`, then `npm start`; open `http://localhost:4173`.
+Open the standalone deliverable below directly in a browser. Tasks are stored in that browser's local storage.
 
-Primary deliverable: [`public/index.html`](./public/index.html).
+Primary deliverable: [`outputs/PrathameshKaranjkar_Task5.html`](./outputs/PrathameshKaranjkar_Task5.html).
 
 ## Generated outputs
 
