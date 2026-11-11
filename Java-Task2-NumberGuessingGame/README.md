@@ -20,7 +20,7 @@ Java, Maven, SQLite (for database-backed assignments).
 
 ## How to run / setup
 
-Use JDK 25+ and Maven 3.8+. From this folder run `mvn clean package`, then `mvn exec:java`. Swing projects need a desktop session.
+Use JDK 25 LTS or later and Maven 3.8+. Maven compiles this project for Java 25. From this folder run `mvn clean package`, then `mvn exec:java`. Swing projects need a desktop session.
 
 Primary deliverable: [`src/main/java/com/oasis/guess/NumberGuessingGame.java`](./src/main/java/com/oasis/guess/NumberGuessingGame.java).
 
