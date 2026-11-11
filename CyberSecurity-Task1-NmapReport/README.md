@@ -29,6 +29,6 @@ Primary deliverable: [`nmap_scan_results.txt`](./nmap_scan_results.txt).
 ## Generated outputs
 
 - [outputs/nmap_scan_results.txt](./outputs/nmap_scan_results.txt)
-- [outputs/Prathamesh_Task1.txt](./outputs/Prathamesh_Task1.txt)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task1.txt](./outputs/PrathameshKaranjkar_Task1.txt)

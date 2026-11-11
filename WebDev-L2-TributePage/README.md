@@ -29,4 +29,4 @@ Primary deliverable: [`tribute.html`](./tribute.html).
 - [outputs/tribute.png](./outputs/tribute.png)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
-- [outputs/Prathamesh_Task4.md](./outputs/Prathamesh_Task4.md)
+- [outputs/PrathameshKaranjkar_Task4.html](./outputs/PrathameshKaranjkar_Task4.html)

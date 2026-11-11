@@ -29,6 +29,6 @@ Primary deliverable: [`capture_notes.txt`](./capture_notes.txt).
 ## Generated outputs
 
 - [outputs/capture_notes.txt](./outputs/capture_notes.txt)
-- [outputs/Prathamesh_Task8.txt](./outputs/Prathamesh_Task8.txt)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task8.txt](./outputs/PrathameshKaranjkar_Task8.txt)

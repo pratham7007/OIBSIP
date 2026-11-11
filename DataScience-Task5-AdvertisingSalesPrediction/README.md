@@ -33,6 +33,6 @@ Primary deliverable: [`05_advertising_sales_prediction.ipynb`](./05_advertising_
 - [outputs/notebook_chart_04.png](./outputs/notebook_chart_04.png)
 - [outputs/notebook_chart_05.png](./outputs/notebook_chart_05.png)
 - [outputs/notebook_chart_06.png](./outputs/notebook_chart_06.png)
-- [outputs/Prathamesh_Task5.ipynb](./outputs/Prathamesh_Task5.ipynb)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task5.ipynb](./outputs/PrathameshKaranjkar_Task5.ipynb)

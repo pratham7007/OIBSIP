@@ -31,6 +31,6 @@ Primary deliverable: [`01_house_price_regression.ipynb`](./01_house_price_regres
 - [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
 - [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)
 - [outputs/notebook_chart_04.png](./outputs/notebook_chart_04.png)
-- [outputs/Prathamesh_Task5.ipynb](./outputs/Prathamesh_Task5.ipynb)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task5.ipynb](./outputs/PrathameshKaranjkar_Task5.ipynb)

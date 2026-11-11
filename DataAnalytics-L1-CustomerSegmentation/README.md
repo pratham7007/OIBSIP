@@ -31,6 +31,6 @@ Primary deliverable: [`02_customer_segmentation.ipynb`](./02_customer_segmentati
 - [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
 - [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
 - [outputs/notebook_chart_03.png](./outputs/notebook_chart_03.png)
-- [outputs/Prathamesh_Task2.ipynb](./outputs/Prathamesh_Task2.ipynb)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task2.ipynb](./outputs/PrathameshKaranjkar_Task2.ipynb)

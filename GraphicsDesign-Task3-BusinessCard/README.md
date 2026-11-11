@@ -31,6 +31,6 @@ Primary deliverable: [`lumen_business_card_print.pdf`](./outputs/business-card/l
 - [outputs/business-card/lumen_business_card_back.png](./outputs/business-card/lumen_business_card_back.png)
 - [outputs/business-card/lumen_business_card_front.png](./outputs/business-card/lumen_business_card_front.png)
 - [outputs/business-card/lumen_business_card_print.pdf](./outputs/business-card/lumen_business_card_print.pdf)
-- [outputs/Prathamesh_Task3.pdf](./outputs/Prathamesh_Task3.pdf)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task3.pdf](./outputs/PrathameshKaranjkar_Task3.pdf)

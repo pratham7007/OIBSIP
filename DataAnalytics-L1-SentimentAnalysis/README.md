@@ -29,6 +29,6 @@ Primary deliverable: [`04_sentiment_analysis.ipynb`](./04_sentiment_analysis.ipy
 - [outputs/evaluation_summary.csv](./outputs/evaluation_summary.csv)
 - [outputs/notebook_chart_01.png](./outputs/notebook_chart_01.png)
 - [outputs/notebook_chart_02.png](./outputs/notebook_chart_02.png)
-- [outputs/Prathamesh_Task4.ipynb](./outputs/Prathamesh_Task4.ipynb)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task4.ipynb](./outputs/PrathameshKaranjkar_Task4.ipynb)

@@ -29,4 +29,4 @@ Primary deliverable: [`index.html`](./index.html).
 - [outputs/landing-page.png](./outputs/landing-page.png)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
-- [outputs/Prathamesh_Task1.md](./outputs/Prathamesh_Task1.md)
+- [outputs/PrathameshKaranjkar_Task1.html](./outputs/PrathameshKaranjkar_Task1.html)

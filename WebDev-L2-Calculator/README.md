@@ -29,4 +29,4 @@ Primary deliverable: [`calculator.html`](./calculator.html).
 - [outputs/calculator.png](./outputs/calculator.png)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
-- [outputs/Prathamesh_Task7.md](./outputs/Prathamesh_Task7.md)
+- [outputs/PrathameshKaranjkar_Task7.html](./outputs/PrathameshKaranjkar_Task7.html)

@@ -33,6 +33,6 @@ Primary deliverable: [`01_retail_sales_eda.ipynb`](./01_retail_sales_eda.ipynb).
 - [outputs/notebook_chart_04.png](./outputs/notebook_chart_04.png)
 - [outputs/notebook_chart_05.png](./outputs/notebook_chart_05.png)
 - [outputs/notebook_chart_06.png](./outputs/notebook_chart_06.png)
-- [outputs/Prathamesh_Task1.ipynb](./outputs/Prathamesh_Task1.ipynb)
 - [outputs/video_title_card.png](./outputs/video_title_card.png)
 - [outputs/submission_post_and_script.md](./outputs/submission_post_and_script.md)
+- [outputs/PrathameshKaranjkar_Task1.ipynb](./outputs/PrathameshKaranjkar_Task1.ipynb)
