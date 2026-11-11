@@ -1,0 +1,32 @@
+# Fraud Detection
+
+**Internship:** Oasis Infobyte - OIBSIP
+**Track:** Data Analytics
+**Assignment:** Task 7
+
+## Objective & description
+
+Explore a defined analytics question through a reproducible Jupyter notebook and shared analysis functions.
+
+## Tech stack
+
+Python, Jupyter, pandas, NumPy, scikit-learn, Matplotlib, Seaborn.
+
+## Features implemented
+
+- Imbalanced classification workflow
+- Precision/recall-oriented evaluation
+- Deterministic synthetic records; no transaction data
+
+## How to run / setup
+
+Install dependencies with `python -m pip install -r requirements.txt`, then run `jupyter lab .` and open the notebook. Run from this folder so its local analysis module and `data` directory are available.
+
+Primary deliverable: [`03_fraud_detection.ipynb`](./03_fraud_detection.ipynb).
+
+> Data provenance caveats are documented in the notebook and README; synthetic records are not empirical findings.
+
+## Screenshots / demo video
+
+- Screenshots: _Add screenshot links here._
+- Demo video: _Add a demo video link here._

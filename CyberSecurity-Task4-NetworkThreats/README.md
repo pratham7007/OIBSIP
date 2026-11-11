@@ -1,0 +1,32 @@
+# Network Threats
+
+**Internship:** Oasis Infobyte - OIBSIP
+**Track:** Security Analyst / Cyber Security
+**Assignment:** Task 4
+
+## Objective & description
+
+Summarize common network threats and defensive controls.
+
+## Tech stack
+
+Security analysis, defensive controls, and report writing.
+
+## Features implemented
+
+- Threat descriptions and impact
+- Mitigation and monitoring guidance
+- Research report with source references
+
+## How to run / setup
+
+Open `network_security_threats_report.md` and review the research findings and defensive mitigations.
+
+Primary deliverable: [`network_security_threats_report.md`](./network_security_threats_report.md).
+
+> No third-party scans, exploitation, packet capture, or fabricated evidence are included. Practical work requiring a lab remains clearly marked as pending.
+
+## Screenshots / demo video
+
+- Screenshots: _Add screenshot links here._
+- Demo video: _Add a demo video link here._

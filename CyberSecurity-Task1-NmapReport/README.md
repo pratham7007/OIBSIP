@@ -1,0 +1,32 @@
+# Nmap Local-lab Report
+
+**Internship:** Oasis Infobyte - OIBSIP
+**Track:** Security Analyst / Cyber Security
+**Assignment:** Task 1
+
+## Objective & description
+
+Prepare a scope-first local-lab network scanning report.
+
+## Tech stack
+
+Security analysis, defensive controls, and report writing.
+
+## Features implemented
+
+- Authorized scope and target checklist
+- Unpopulated results template
+- No scan evidence is claimed
+
+## How to run / setup
+
+Review the included report checklist and unpopulated results template. Perform any scan only in a lab you own or are explicitly authorized to test; no scan was performed or results fabricated.
+
+Primary deliverable: [`nmap_scan_results.txt`](./nmap_scan_results.txt).
+
+> No third-party scans, exploitation, packet capture, or fabricated evidence are included. Practical work requiring a lab remains clearly marked as pending.
+
+## Screenshots / demo video
+
+- Screenshots: _Add screenshot links here._
+- Demo video: _Add a demo video link here._

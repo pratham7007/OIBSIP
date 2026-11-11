@@ -1,0 +1,30 @@
+# Iris Flower Classification
+
+**Internship:** Oasis Infobyte - OIBSIP
+**Track:** Data Science
+**Assignment:** Task 1
+
+## Objective & description
+
+Classify Iris species and explore feature relationships.
+
+## Tech stack
+
+Python, Jupyter, pandas, NumPy, scikit-learn, Matplotlib, Seaborn.
+
+## Features implemented
+
+- Dataset exploration and visual summaries
+- Logistic Regression and K-Nearest Neighbours
+- Held-out accuracy/macro-F1 comparison
+
+## How to run / setup
+
+Install dependencies with `python -m pip install -r requirements.txt`, then run `jupyter lab .` and open the notebook. Run from this folder so its local `analysis_tasks.py` and `data` directory are available.
+
+Primary deliverable: [`01_iris_flower_classification.ipynb`](./01_iris_flower_classification.ipynb).
+
+## Screenshots / demo video
+
+- Screenshots: _Add screenshot links here._
+- Demo video: _Add a demo video link here._

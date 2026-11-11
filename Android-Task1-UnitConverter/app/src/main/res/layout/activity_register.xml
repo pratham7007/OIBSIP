@@ -1,0 +1,30 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FB"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Create account" android:textColor="#172554"
+            android:textSize="28sp" android:textStyle="bold" />
+        <EditText android:id="@+id/registerName" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Name"
+            android:inputType="textPersonName" android:autofillHints="name" />
+        <EditText android:id="@+id/registerEmail" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Email"
+            android:inputType="textEmailAddress" android:autofillHints="emailAddress" />
+        <EditText android:id="@+id/registerPassword" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="Password (at least 8 characters)"
+            android:inputType="textPassword" android:autofillHints="newPassword" />
+        <Button android:id="@+id/registerButton" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="16dp"
+            android:text="Register" android:textAllCaps="false" />
+        <Button android:id="@+id/backToLogin" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Back to login"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

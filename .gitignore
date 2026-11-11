@@ -1,0 +1,39 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Java / Android build output and local SDK paths
+build/
+target/
+.gradle/
+local.properties
+*.apk
+
+# Local application data and generated analysis output
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+**/users.json
+**/outputs/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor, OS, and runtime artifacts
+.DS_Store
+Thumbs.db
+.vs/
+*.log
+**/logs/

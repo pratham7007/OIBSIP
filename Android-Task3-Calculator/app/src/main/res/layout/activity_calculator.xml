@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FB"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Calculator" android:textColor="#172554"
+        android:textSize="28sp" android:textStyle="bold" />
+    <TextView android:id="@+id/calculatorDisplay" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|end"
+        android:maxLines="2" android:padding="16dp" android:text="0"
+        android:textColor="#172554" android:textSize="36sp" />
+    <GridLayout
+        android:id="@+id/calculatorGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:useDefaultMargins="true">
+        <Button style="@style/CalculatorButton" android:tag="C" android:text="C" />
+        <Button style="@style/CalculatorButton" android:tag="⌫" android:text="⌫" />
+        <Button style="@style/CalculatorButton" android:tag="÷" android:text="÷" />
+        <Button style="@style/CalculatorButton" android:tag="×" android:text="×" />
+        <Button style="@style/CalculatorButton" android:tag="7" android:text="7" />
+        <Button style="@style/CalculatorButton" android:tag="8" android:text="8" />
+        <Button style="@style/CalculatorButton" android:tag="9" android:text="9" />
+        <Button style="@style/CalculatorButton" android:tag="-" android:text="−" />
+        <Button style="@style/CalculatorButton" android:tag="4" android:text="4" />
+        <Button style="@style/CalculatorButton" android:tag="5" android:text="5" />
+        <Button style="@style/CalculatorButton" android:tag="6" android:text="6" />
+        <Button style="@style/CalculatorButton" android:tag="+" android:text="+" />
+        <Button style="@style/CalculatorButton" android:tag="1" android:text="1" />
+        <Button style="@style/CalculatorButton" android:tag="2" android:text="2" />
+        <Button style="@style/CalculatorButton" android:tag="3" android:text="3" />
+        <Button style="@style/CalculatorButton" android:tag="=" android:text="=" />
+        <Button style="@style/CalculatorButton" android:tag="0" android:text="0" />
+        <Button style="@style/CalculatorButton" android:tag="." android:text="." />
+    </GridLayout>
+</LinearLayout>

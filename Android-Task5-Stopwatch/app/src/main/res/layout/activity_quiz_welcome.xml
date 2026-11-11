@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FB"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:text="General Knowledge Quiz"
+        android:textColor="#172554" android:textSize="30sp" android:textStyle="bold" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:gravity="center"
+        android:text="10 shuffled questions. Choose one answer and get instant feedback."
+        android:textColor="#475569" android:textSize="17sp" />
+    <Button android:id="@+id/startQuiz" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="Start quiz" android:textAllCaps="false" />
+</LinearLayout>
