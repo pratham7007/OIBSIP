@@ -37,7 +37,7 @@ This index links to the independent root-level task folders. Each folder contain
 | Data Science | [Car Price Prediction](./DataScience-Task3-CarPricePrediction/) | [README](./DataScience-Task3-CarPricePrediction/README.md) |
 | Data Science | [SMS Spam Detection](./DataScience-Task4-SMSSpamDetection/) | [README](./DataScience-Task4-SMSSpamDetection/README.md) |
 | Data Science | [Advertising Sales Prediction](./DataScience-Task5-AdvertisingSalesPrediction/) | [README](./DataScience-Task5-AdvertisingSalesPrediction/README.md) |
-| Data Analytics | [EDA on Retail Sales Data](./DataAnalytics-L1-RetailSalesEDA/) | [README](./DataAnalytics-L1-RetailSalesEDA/README.md) |
+| Data Analytics | [EDA on Retail Sales Data](./DataAnalytics-L1-EDARetailSales/) | [README](./DataAnalytics-L1-EDARetailSales/README.md) |
 | Data Analytics | [Customer Segmentation Analysis](./DataAnalytics-L1-CustomerSegmentation/) | [README](./DataAnalytics-L1-CustomerSegmentation/README.md) |
 | Data Analytics | [Cleaning Data](./DataAnalytics-L1-DataCleaning/) | [README](./DataAnalytics-L1-DataCleaning/README.md) |
 | Data Analytics | [Financial Sentiment Analysis](./DataAnalytics-L1-SentimentAnalysis/) | [README](./DataAnalytics-L1-SentimentAnalysis/README.md) |
@@ -54,7 +54,7 @@ This index links to the independent root-level task folders. Each folder contain
 | Security Analyst / Cyber Security | [Nmap Local-lab Report](./CyberSecurity-Task1-NmapReport/) | [README](./CyberSecurity-Task1-NmapReport/README.md) |
 | Security Analyst / Cyber Security | [Firewall Configuration](./CyberSecurity-Task2-Firewall/) | [README](./CyberSecurity-Task2-Firewall/README.md) |
 | Security Analyst / Cyber Security | [SQL Injection Defensive Lab](./CyberSecurity-Task3-SQLInjectionDefensiveLab/) | [README](./CyberSecurity-Task3-SQLInjectionDefensiveLab/README.md) |
-| Security Analyst / Cyber Security | [Network Threats](./CyberSecurity-Task4-NetworkThreats/) | [README](./CyberSecurity-Task4-NetworkThreats/README.md) |
+| Security Analyst / Cyber Security | [Network Threats](./CyberSecurity-Task4-NetworkThreatsReport/) | [README](./CyberSecurity-Task4-NetworkThreatsReport/README.md) |
 | Security Analyst / Cyber Security | [Social Engineering](./CyberSecurity-Task5-SocialEngineering/) | [README](./CyberSecurity-Task5-SocialEngineering/README.md) |
 | Security Analyst / Cyber Security | [Patch Management](./CyberSecurity-Task6-PatchManagement/) | [README](./CyberSecurity-Task6-PatchManagement/README.md) |
 | Security Analyst / Cyber Security | [Web Security Scan Template](./CyberSecurity-Task7-WebScanTemplate/) | [README](./CyberSecurity-Task7-WebScanTemplate/README.md) |
