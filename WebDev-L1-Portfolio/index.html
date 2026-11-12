@@ -68,31 +68,187 @@
         </div>
       </section>
 
-      <section id="projects" class="section" style="background: #f7fafc;">
-        <div class="container">
-          <div class="section-header">
-            <h2>Selected projects</h2>
-            <p>Recent work that blends creative problem solving with practical execution.</p>
-          </div>
-          <div class="project-grid">
-            <article class="project-card" style="padding:1.5rem;">
-              <h3>FitFlow App</h3>
-              <p>A training dashboard with habit tracking, performance summaries, and athlete-friendly dashboards.</p>
-              <p style="margin-top:1rem;"><a href="#" style="color:var(--primary-dark); font-weight:700;">GitHub placeholder</a></p>
-            </article>
-            <article class="project-card" style="padding:1.5rem;">
-              <h3>Northstar Studio</h3>
-              <p>A portfolio showcase for a creative agency focused on product storytelling and memorable brand direction.</p>
-              <p style="margin-top:1rem;"><a href="#" style="color:var(--primary-dark); font-weight:700;">GitHub placeholder</a></p>
-            </article>
-            <article class="project-card" style="padding:1.5rem;">
-              <h3>TaskPilot</h3>
-              <p>A task planning interface designed for collaboration, focus, and motivation across shared projects.</p>
-              <p style="margin-top:1rem;"><a href="#" style="color:var(--primary-dark); font-weight:700;">GitHub placeholder</a></p>
-            </article>
-          </div>
+     <!-- ===== OIBSIP COMPLETED PROJECTS SECTION ===== -->
+<section id="projects" class="projects-section">
+  <div class="projects-container">
+    <div class="projects-header">
+      <span class="section-subtitle">Oasis Infobyte Internship Showcase</span>
+      <h2 class="section-title">Completed OIBSIP Projects</h2>
+      <p class="section-desc">
+        A multi-disciplinary engineering portfolio featuring 52 completed and verified tasks across 8 domains.
+      </p>
+    </div>
+
+    <!-- Track Filter Tabs -->
+    <div class="project-filters" role="tablist">
+      <button class="filter-btn active" data-filter="all">All Tracks (52)</button>
+      <button class="filter-btn" data-filter="web">Web Development</button>
+      <button class="filter-btn" data-filter="java">Java (Java 21)</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="android">Android</button>
+      <button class="filter-btn" data-filter="data">Data Science & Analytics</button>
+      <button class="filter-btn" data-filter="cyber">Cybersecurity & Design</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid" id="oibsip-projects-grid">
+
+      <!-- Web Development -->
+      <article class="project-card" data-category="web">
+        <div class="project-badge">Web Development • Level 3</div>
+        <h3 class="project-title">Full-Stack Pizza Delivery Application</h3>
+        <p class="project-summary">
+          Custom pizza builder with real-time inventory management, user/admin authentication, order status tracking, and payment integration.
+        </p>
+        <div class="project-tags">
+          <span>React / Node.js</span><span>MongoDB</span><span>Express</span><span>REST API</span>
         </div>
-      </section>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="web">
+        <div class="project-badge">Web Development • Level 2</div>
+        <h3 class="project-title">Interactive Web Apps Suite (Calculator, Todo, Auth & Tribute)</h3>
+        <p class="project-summary">
+          Responsive web utility suite featuring a scientific calculator, persistent task manager, login authentication flow, and temperature converter.
+        </p>
+        <div class="project-tags">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span><span>LocalStorage</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <!-- Java Development -->
+      <article class="project-card" data-category="java">
+        <div class="project-badge">Java Development • Java 21 / Maven</div>
+        <h3 class="project-title">Online Reservation & Digital Library Management</h3>
+        <p class="project-summary">
+          End-to-end reservation and library catalog system with PNR cancellation, admin issuance workflows, and standardized Maven Java 21 builds.
+        </p>
+        <div class="project-tags">
+          <span>Java 21</span><span>Maven</span><span>OOP</span><span>JDBC / Collections</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <article class="project-card" data-category="java">
+        <div class="project-badge">Java Development • Java 21 / Maven</div>
+        <h3 class="project-title">ATM Interface, Online Examination & Number Guessing</h3>
+        <p class="project-summary">
+          Interactive console and GUI banking/assessment applications supporting PIN authentication, timed MCQ sessions, and transaction history logs.
+        </p>
+        <div class="project-tags">
+          <span>Java 21</span><span>Swing / CLI</span><span>Maven</span><span>State Management</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <!-- Python Programming -->
+      <article class="project-card" data-category="python">
+        <div class="project-badge">Python Programming</div>
+        <h3 class="project-title">Voice Assistant & Real-Time Socket Chat Application</h3>
+        <p class="project-summary">
+          Custom voice command automation assistant paired with a multi-client TCP socket chat app, live weather API fetcher, and password/BMI tools.
+        </p>
+        <div class="project-tags">
+          <span>Python 3</span><span>Sockets</span><span>SpeechRecognition</span><span>REST APIs</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <!-- Android Development -->
+      <article class="project-card" data-category="android">
+        <div class="project-badge">Android Development</div>
+        <h3 class="project-title">Native Android Mobile Suite (Quiz, Stopwatch, Calculator & Unit Converter)</h3>
+        <p class="project-summary">
+          Collection of Material Design Android apps built with clean lifecycle management, interactive quiz scoring, and precision utility tools.
+        </p>
+        <div class="project-tags">
+          <span>Android SDK</span><span>Java / Kotlin</span><span>XML Layouts</span><span>Gradle</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <!-- Data Science & Data Analytics -->
+      <article class="project-card" data-category="data">
+        <div class="project-badge">Data Science & Analytics</div>
+        <h3 class="project-title">Predictive ML Models & Retail Analytics Suite</h3>
+        <p class="project-summary">
+          End-to-end machine learning pipelines covering Iris classification, Car Price & Sales prediction, Email Spam detection, EDA, and Customer Segmentation.
+        </p>
+        <div class="project-tags">
+          <span>Scikit-Learn</span><span>Pandas</span><span>Matplotlib / Seaborn</span><span>NLP</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+      <!-- Cybersecurity & Graphic Design -->
+      <article class="project-card" data-category="cyber">
+        <div class="project-badge">Cybersecurity & Graphic Design</div>
+        <h3 class="project-title">Network Security Audits & Visual Brand Identity Suite</h3>
+        <p class="project-summary">
+          Packet sniffing, vulnerability scanning, and firewall configuration walkthroughs alongside high-resolution 1920x1080 brand and poster deliverables.
+        </p>
+        <div class="project-tags">
+          <span>Nmap / Wireshark</span><span>UFW</span><span>Linux Security</span><span>UI / Graphic Design</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pratham7007/OIBSIP" target="_blank" rel="noopener noreferrer">View in Repo →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .projects-section { padding: 4rem 1.5rem; }
+  .projects-container { max-width: 1200px; margin: 0 auto; }
+  .projects-header { text-align: center; margin-bottom: 2.25rem; }
+  .section-subtitle { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.8; display: block; margin-bottom: 0.5rem; }
+  .section-title { font-size: 2.2rem; margin: 0 0 0.75rem; }
+  .section-desc { max-width: 640px; margin: 0 auto; opacity: 0.85; }
+  .project-filters { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-bottom: 2.25rem; }
+  .filter-btn { padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid rgba(128,128,128,0.35); background: transparent; color: inherit; cursor: pointer; font-size: 0.9rem; transition: all 0.2s ease; }
+  .filter-btn.active, .filter-btn:hover { background: #3b82f6; color: #ffffff; border-color: #3b82f6; }
+  .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+  .project-card { border: 1px solid rgba(128,128,128,0.25); border-radius: 14px; padding: 1.5rem; display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, border-color 0.2s ease; background: rgba(128,128,128,0.05); }
+  .project-card:hover { transform: translateY(-4px); border-color: #3b82f6; }
+  .project-badge { font-size: 0.78rem; font-weight: 600; color: #3b82f6; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .project-title { font-size: 1.2rem; margin: 0 0 0.65rem; line-height: 1.35; }
+  .project-summary { font-size: 0.94rem; line-height: 1.55; opacity: 0.85; margin-bottom: 1.1rem; flex-grow: 1; }
+  .project-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.1rem; }
+  .project-tags span { font-size: 0.76rem; padding: 0.25rem 0.65rem; border-radius: 6px; background: rgba(59, 130, 246, 0.14); color: inherit; }
+  .project-links a { font-weight: 600; font-size: 0.9rem; color: #3b82f6; text-decoration: none; }
+  .project-links a:hover { text-decoration: underline; }
+</style>
+
+<script>
+  document.querySelectorAll('.project-filters .filter-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.project-filters .filter-btn').forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      const filter = button.getAttribute('data-filter');
+      document.querySelectorAll('#oibsip-projects-grid .project-card').forEach(card => {
+        card.style.display = (filter === 'all' || card.getAttribute('data-category') === filter) ? 'flex' : 'none';
+      });
+    });
+  });
+</script>
 
       <section id="contact" class="section">
         <div class="container">
@@ -111,7 +267,7 @@
             </article>
             <article class="contact-card">
               <h3>Social</h3>
-              <p>LinkedIn / GitHub</p>
+              <p>https://github.com/pratham7007</p>
             </article>
           </div>
         </div>
